@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    background:linear-gradient( to left,#18a547 25%,#bfffc7 40% );
+    background-repeat: no-repeat;
+}
+.chartapp-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #19c276 solid 1px;
+    box-shadow: 0 0.5px 15px rgba(167, 246, 167, 0.644);
+    text-align: center;
+    padding:1rem;
+    position: relative;
+    width: 500px;
+    height:40vh;
+}
+.chartapp-container h3{
+    font-size: 35px;
+    font-weight: 500;
+    font-style: none;
+   margin-bottom:2rem;
+
+}
+
+
+.login-register-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.register-btn{
+    font-size:20px;
+    padding: 0.75rem 1rem;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    background-color: rgb(8, 96, 46);
+    border: none;
+    color: rgb(179, 202, 224);
+    width:150px;
+  
+}
+.login-btn{
+    font-size: 20px;
+    padding: 0.75rem 1rem;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+   background-color: rgb(16, 190, 187);
+   border: none;
+   color: rgb(179, 202, 224);
+  width:150px;
+}
+.home-btn{
+    text-decoration:none ;
+    color: #fff;
+}
+@media screen and (max-width:600px){
+ 
+    .chartapp-container{
+        width: 200px;
+    }
+
+}
